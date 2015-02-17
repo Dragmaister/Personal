@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\Client\World.cs">
+    <Files>
+      <File FileName="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\Client\HeroHandler.cs" Line="58" Column="35" />
+      <File FileName="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\Client\World.cs" Line="434" Column="64" />
+      <File FileName="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\Client\InteractableElements\HeroElement.cs" Line="57" Column="26" />
+      <File FileName="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\GameEngine\Impl\EoCGame.cs" Line="227" Column="115" />
+      <File FileName="..\..\Git\ElementsOfChance\Client\Assets\_Project\Scripts\Utilities\UI\EventProxy.cs" Line="16" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
