@@ -1,14 +1,26 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class UIHandler : MonoBehaviour
 {
-	public void PrintClick ()
+	void Start()
 	{
-		PrintText ("Click");
+		var button = transform.FindChild("Button").GetComponent<Button>();
+
+		/*button.onClick.AddListener(() => {
+			Debug.Log("...");
+			Print();
+		});*/
 	}
 
-	public void PrintText (string text)
+	public void Print()
 	{
-		Debug.Log (text);
+		Debug.Log("Print");
 	}
+
+	public void PrintText(string text)
+	{
+		Debug.Log(text);
+	}
+
 }

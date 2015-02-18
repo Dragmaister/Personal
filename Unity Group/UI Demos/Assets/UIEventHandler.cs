@@ -5,8 +5,7 @@ using UnityEngine.EventSystems;
 public class UIEventHandler : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IDragHandler, IDeselectHandler, ISelectHandler
 {
 
-	UIHandler uiHandler;
-	Canvas canvas;
+	private Canvas canvas;
 
 	public bool PointerUpEnabled = false;
 	public bool PointerDownEnabled = false;
@@ -21,7 +20,6 @@ public class UIEventHandler : MonoBehaviour, IPointerUpHandler, IPointerDownHand
 
 	void Awake ()
 	{
-		uiHandler = GameObject.FindObjectOfType<UIHandler> ();
 		canvas = this.GetComponentInParent<Canvas> ();
 	}
 	
